@@ -1,0 +1,64 @@
+1).
+ 
+STORE "m" with 600
+STORE "a" with 2
+STORE "F" without value
+
+CALCULATE "m" times "a"
+SET "F" value with the calculation result
+
+DISPLAY "F"
+
+
+
+-------------------------------------------
+
+
+2). 
+
+STORE "kYear" to any variable
+
+IF "kYear" modulo 4  equals to 0   AND  "kYear" modulo 100 NOT equals to 0
+  DISPLAY "it is Leap Year!"
+
+ELSE IF "kYear" modulo 400 equals to 0
+  DISPLAY "it is Leap year!"
+
+ELSE 
+  DISPLAY "it is NOT Leap Year!"
+
+
+
+-------------------------------------------
+
+
+3).  
+
+STORE "clothes" with 0
+
+WHILE "clothes" < 20
+ ADD "clothes" by 1
+
+DO "Turn on a Washing Machine"
+
+
+
+-------------------------------------------
+
+
+4).
+
+STORE "student" to 0
+
+WHILE "student" < 40 
+  ADD "student" by 1
+  IF "student" has long nail
+    DO  "Guru menghukum siswa/siswi"
+  ELSE 
+    DO "Guru puji siswa/siswi"
+
+
+
+
+
+

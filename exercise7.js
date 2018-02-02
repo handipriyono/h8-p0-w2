@@ -33,18 +33,17 @@ while (barisLuar < rows2) {
 // 3. Menyusun Barisan Tangga Bintang Dengan Nested Looping
 
 let rows3 = 5;
-let barisLuar = 0;
-let barisDalam = 0;
+let barisLuar1 = 0;
+let barisDalam1 = 0;
 let star = '';
 
-//print kebawah sebanyak 7
-while (barisLuar < rows3) {
+while (barisLuar1 < rows3) {
 
-  while (barisDalam <= barisLuar) {
+  while (barisDalam1 <= barisLuar1) {
     star = star + '*';
-    barisDalam++;
+    barisDalam1++;
   }
 
   console.log(star);
-  barisLuar++;
+  barisLuar1++;
 }

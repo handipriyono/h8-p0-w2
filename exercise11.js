@@ -1,10 +1,7 @@
-
-
 function balikKata(kata) {
   var gabung = '';
 
   for (var i = kata.length - 1; i >= 0; i--) {
-    var ai = kata.split('');
     gabung = gabung + kata[i];
   }
 
